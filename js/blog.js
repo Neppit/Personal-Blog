@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
             postElement.innerHTML = `
                 <h2>${post.title}</h2>
                 <p>${post.content}</p>
-                <span>Author: ${post.username}</span>
+                <span>Username: ${post.username}</span>
             `;
             postsContainer.appendChild(postElement);
         });
